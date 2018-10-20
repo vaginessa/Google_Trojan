@@ -16,8 +16,7 @@ echo ^</head^>^<body bgcolor="#000088" scroll="no"^> >> bsod.hta
 echo ^<font face="Lucida Console" size="4" color="#FFFFFF"^> >> bsod.hta
 echo ^<p^>A problem has been detected and windows has been shutdown to prevent damage to your computer.^</p^> >> bsod.hta
 echo. >> bsod.hta
-echo ^<p^>DRIVER_IRQL_NOT_LES_OR_EQ
-UAL^</p^> >> bsod.htaecho. >> bsod.hta
+echo ^<p^>DRIVER_IRQL_^NOT_LES_^OR_^EQUAL^</p^> >> bsod.htaecho. >> bsod.hta
 echo ^<p^>If this is the first time you've seen this stop error screen, restart your computer, If this screen appears again, follow these steps:^</p^> >> bsod.hta
 echo. >> bsod.hta
 echo ^<p^>Check to make sure any new hardware or software is properly installed. If this is a new installation, ask your hardware or software manufacturer for any windows updates you might need.^</p^> >> bsod.hta
@@ -26,8 +25,7 @@ echo ^<p^>If problems continue, disable or remove any newly installed hardware o
 echo. >> bsod.hta
 echo ^<p^>Technical information:^</p^> >> bsod.hta
 echo. >> bsod.hta
-echo ^<p^>*** STOP: 0x000000D1 (0x0000000C,0x00000002,0x00000
-000,0xF86B5A89)^</p^> >> bsod.htaecho. >> bsod.hta
+echo ^<p^>*** STOP: 0x000000D1 (0x0000000C,0x00000002,0x00000000,0xF86B5A89)^</p^> >> bsod.htaecho. >> bsod.hta
 echo. >> bsod.hta
 echo ^<p^>*** gv3.sys - Address F86B5A89 base at F86B5000, DateStamp 3dd9919eb^</p^> >> bsod.hta
 echo. >> bsod.hta
